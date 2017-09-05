@@ -1,5 +1,4 @@
-document.getElementById('my-form').addEventListener("submit", function(event) {
-	event.preventDefault();
+document.getElementById('capitalise').addEventListener("click", function(event) {
 	var strr = document.getElementById("ta1").value.toLowerCase();
 	console.log (strr);
 	var promise = new RSVP.Promise(function(fulfill, reject) {
