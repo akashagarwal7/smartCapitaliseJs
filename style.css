@@ -1,0 +1,71 @@
+body, p, textarea, button {
+		font-size: 100%;
+		font-family: 'Open Sans', Helvetica, sans-serif;
+	}
+	textarea, button {
+		border-width: 1px;
+		border-color: black;
+		border-radius: 3px;
+		
+	}
+	textarea {
+		height: 80%; 
+		width: 49.5%;
+		padding: 10px;
+	}
+
+	.ta2 {
+		float: right;
+	}
+
+	button {
+		height: 10%; width: 90%; background-color: white;
+		margin: 1% auto; display: block;
+	}
+
+	button:hover {
+		background-color: #0074D9;
+		color: white;
+	}
+
+	body {
+		background-color: #222222;
+	}
+
+	div {
+		color: #0074D9;
+		
+	}
+
+	.break {
+		display: none;
+	}
+
+	a, a:visited {
+		color: white;
+	}
+
+	@media only screen and (max-width: 767px) {
+		textarea {
+			height: 46.5%;
+			width: 100%; 
+			padding: 5px;
+		}
+		button {
+			height: 8%;
+		}
+
+		.ta2 {
+			float: none;
+		}
+
+		.break {
+			display: block;
+		}
+	}
+
+	@media only screen and (max-width: 767px) and (orientation: landscape) {
+		button {
+			height: 15%;
+		}
+	}
