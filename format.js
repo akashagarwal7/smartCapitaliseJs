@@ -1,4 +1,5 @@
-document.getElementById('my-form').onsubmit = function() {
+document.getElementById('my-form').addEventListener("submit", function(event) {
+	event.preventDefault();
 	var strr = document.getElementById("ta1").value.toLowerCase();
 	console.log (strr);
 	var promise = new RSVP.Promise(function(fulfill, reject) {
@@ -15,4 +16,4 @@ document.getElementById('my-form').onsubmit = function() {
 		console.log("This sucks");
 	});
 	return false;
-}
+});
