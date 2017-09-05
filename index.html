@@ -6,7 +6,7 @@
 	<title>Smart Capitalise JS</title>
 </head>
 <body>
-	<!-- <form onsubmit="return format(this);"> -->
+	<div class="heading" align="center"><h2>Smart Capitalisation</h2></div>
 	<form id = 'my-form'>
 			<textarea id = 'ta1' placeholder="Enter text here">this is a dummy text for you to test. if you click on the button down below, you will see the little magic happening. intentionally, i MAdE thE teXt ridIculOus here. to be honest, i'm not a bad guy.</textarea>
 			<div class="break"><br></div>
@@ -14,7 +14,27 @@
 		<br>
 	</form>
 	<button id = 'capitalise'>Smart capitalize text!</button>	
-	<div align="center">Powered by <a href="https://en.wikipedia.org/wiki/Regular_expression" target="_blank">Regex</a></div>
+	<br>
+	<div class="info">
+		<br>
+		<h3>Capitalises</h3>
+		<li>First letter of text. </li>
+		<li>First letter after a whitespace preceeded by a period. </li>
+		<li>Small i as a word and those with an apostrophe, for e.g. i'm, i'd. </li>
+		<br>
+	</div>
+	<br>
+	<div class="info">
+		<br>
+		<h3>Does not capitalises</h3>
+		<li>First letter directly after a period, for e.g. abc@gmail.com. </li>
+		<br>
+	</div>
+	<br><br>
+	<div align="center">
+	<div class="regex" align="center">Powered by <a href="https://en.wikipedia.org/wiki/Regular_expression" target="_blank">Regex</a> </div> - 
+	<div class="github" align="center">Contribute/suggest at <a href="https://github.com/akashaggarwal7/smartCapitaliseJs/issues">GitHub</a></div>
+	</div>
 
 	<!-- <script src="http://cdn.jsdelivr.net/rsvp/3.0.6/rsvp.js"></script> -->
 	<script src="./rsvp.js"></script>

@@ -1,13 +1,15 @@
-body, p, textarea, button {
+body, textarea, button {
 		font-size: 100%;
 		font-family: 'Open Sans', Helvetica, sans-serif;
 	}
+
 	textarea, button {
 		border-width: 1px;
 		border-color: black;
 		border-radius: 3px;
 		
 	}
+
 	textarea {
 		height: 80%; 
 		width: 49.5%;
@@ -19,7 +21,7 @@ body, p, textarea, button {
 	}
 
 	button {
-		height: 10%; width: 90%; background-color: white;
+		height: 10%; width: 100%; background-color: white;
 		margin: 1% auto; display: block;
 	}
 
@@ -34,11 +36,41 @@ body, p, textarea, button {
 
 	div {
 		color: #0074D9;
-		
+	}
+
+	.heading {
+		color: white;
+		background-color: #0074D9;
+		margin-top: 1%;
 	}
 
 	.break {
 		display: none;
+	}
+
+	.info {
+		/*margin-left: 5%;*/
+		display: block; width: 100%;
+		background-color: white;
+		text-align: center;
+		opacity: 0.8;
+		font-family: Courier;
+		font-size: 120%;
+	}
+
+	.regex, .github {
+		display: inline;
+	}
+	.github {
+		color: gray;
+	}
+
+	h3 {
+		text-decoration: underline;
+	}
+
+	li, ul {
+		padding: 0; margin: 5; margin-left: 10;
 	}
 
 	a, a:visited {
@@ -61,6 +93,10 @@ body, p, textarea, button {
 
 		.break {
 			display: block;
+		}
+
+		.regex, .github {
+		display: block;
 		}
 	}
 
