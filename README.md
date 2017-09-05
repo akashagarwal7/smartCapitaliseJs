@@ -1,3 +1,3 @@
 # smartCapitaliseJs
 
-http://akashaggarwal7.github.io/repository
+http://akashaggarwal7.github.io/smartCapitaliseJs
